@@ -32,11 +32,11 @@ public class majority_element {
 
   public static void main(String [] args){
 
-    int arr []= {1,1,3,2,2,5,1,3,1,5,2,2,2};
-    int arr2 []= {1,2};
+    int arr []= {1,1,1,1,1,1,1,1,1,1,1,3,2,2,5,1,3,1,5,2,2,2};
+    // int arr2 []= {1,2};
 
     // majority_ele(arr);
-    majority_ele(arr2);
+    majority_ele(arr);
 
 
 
