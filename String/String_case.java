@@ -2,59 +2,24 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 public class String_case{
-  public String Charecter_converter(String str){
+  public static void String Charecter_converter(String str){
     char [] arr = str.toCharArray();
-    char i =0;
-    char n= arr.length();
+    int i ;
+    int n= arr.length;
 
-    for(char i=0;i<n;i++){
-      if(charAt(arr[i]).isUpperCase){
-        arr[i]=charAt(arr[i]).isLowerCase;
+    for( i=0;i<n;i++){
+      if(Character.isUpperCase(arr[i])){
+        arr[i]=Character.toLowerCase(arr[i]);
       }
       else{
-        arr[i]=CharAt(arr[i]).toUpperCase;
+        arr[i]=Character.toUpperCase(arr[i]);
       }
 
     }
 
 
   }
-
-
-
-  
 }
 
 
